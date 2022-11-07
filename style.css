@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+  
+
+
+
+
+    *{
+        font-family: 'Poppins',sans-serif;
+        
+        
+        
+    
+    
+    
+    }
+    
+    body{ 
+        background-color: hsl(0, 100%, 74%);
+        padding: 50px;
+        color: white;
+        background-image: url(/sprint2/bg-intro-mobile.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+
+    
+               
+    
+    
+    }
+    .importante{
+        max-width: 38rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .importante p{
+        font-size: 16px;
+       
+    }
+    
+
+
+    .titulo{
+        color: white;
+        background-color: hsl(248, 32%, 49%);
+        border-radius: 7px;
+        padding: 5px;
+        font-size:16px;
+        margin-bottom: 15px; 
+    
+    }
+    
+    .titulo strong{
+        font-size:17px;
+        font-family: 'Poppins',sans-serif;
+    }
+    
+    .General{
+        
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap:50px;
+        text-align: center;
+        
+        
+        
+    
+    }
+    .formulario{
+        max-width: 38rem;
+
+
+
+    }
+    .datos{
+        background-color: white;
+        color: black;
+        padding: 20px ;
+        border-radius: 8px;
+        
+        
+    
+    
+    }
+    .datos input{
+        width: 100%;
+        border-radius: 8px;
+        padding: 15px 0px 15px 0px  ;
+        border: none;
+        border:1px solid rgba(90, 85, 81, 0.95);
+        display: block;
+
+    
+    
+    }
+    .cuadros{
+        text-align: left;
+        margin-top: 10px;
+        
+    }
+    .contenedor-texto{
+        position: relative;
+    }
+    .icon-error{
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        display: none;
+
+    }
+    .mensaje-error{
+        text-align:right;
+        color: brown;
+        display: none;
+    }
+    .boton{
+        background-color: hsl(154, 59%,51%);
+        border: none;
+        border-radius: 5px;
+        padding: 20px 30px ;
+        width: 100%;
+        color:white;
+        font-size: 16px;
+        margin-top: 10px;
+    
+    
+    }
+    #Terminos1{
+        color: hsl(246, 25%, 77%);
+        font-size: 16px;
+        
+    }
+
+    .terminos2{
+        color:hsl(0, 100%, 74%);
+        text-decoration: none;
+    }
+    input{
+        border-color: hsl(249, 10%, 26%);
+    }
+
+
+
+    @media(min-width:1200px){
+        .body{
+            background-image: url(/sprint2/bg-intro-desktop.png);
+        }
+        .General{
+            flex-direction: row;
+            
+        }
+       .importante{
+        text-align: left;
+    }
+
+
+        
+
+
+
+
+
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@media(max-width:375px){
+    
+    
+
+    body {
+        background-image: url(https://cdn.discordapp.com/attachments/1032390880566464605/1037770064591593625/wallpaper.png);
+
+        background-color: rgb(255, 120, 121, 255);
+        background-size: cover;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        padding: 15px 15px 15px 15px;
+    
+    }
+
+
+
+}*/
+
+
+
+
+
+
+/*
+body {
+    background-color: rgb(252, 140, 140, 255);
+    background-image: url(https://cdn.discordapp.com/attachments/1032390880566464605/1037770064591593625/wallpaper.png);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+.General {
+display: flex;
+flex-wrap: wrap;
+min-height: 375px;
+padding: 5%;
+align-items: center;
+
+}
+
+.datos {
+    margin-top: 10px; 
+    background: rgb(255, 255 ,255);
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    
+}
+
+
+h1 {
+    color: white;
+
+}
+
+
+.url {
+    color: white;
+    background: rgb(95, 84, 165, 255);
+    border-radius: 5px;
+    padding-left: 3%;
+    padding-right: 3%;
+
+}
+
+
+.boton {
+    background: rgb(58, 203, 139, 255);
+    border: 0cm;
+    
+    color: white;
+    border-radius: 15px;
+    height: 30px;
+    width: 90%;
+    margin-top: 5px;
+    transition: duration 0.5s ;
+
+}
+
+.boton:hover {
+    transform: scale(1.1);
+}
+
+input {
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding: 0px 40px;
+}
+
+
+#Terminos1 {
+
+    font-size: 10px;
+    color: gray;
+
+}
+
+
+#Terminos2 {
+
+    color: rgb(255, 0, 0);
+}
+
+
+
+.formulario {
+justify-content: center;
+width: 50%;
+
+
+}
+
+.Complemento {
+
+    margin: 4%;
+    color: white;
+    text-align: left;
+    flex: 2;
+    width: 50%;
+    align-self: center;
+}
+
+.cuadros {
+    border: 1px solid gray;
+    border-radius: 2PX;
+    width: 90%;
+    margin: 3PX;
+    padding: 0px;
+   
+
+}
+
+.Complemento h1 {
+    font-size: 30px;
+    width: 100%;
+}
+
+.Complemento p {
+
+    font-size: 10px;
+    width: 100%;
+}
+*/
+
+
