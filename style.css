@@ -19,14 +19,14 @@
         background-color: hsl(0, 100%, 74%);
         padding: 50px;
         color: white;
-        background-image: url(/sprint2/bg-intro-mobile.png);
+        background-image: url(./bg-intro-desktop.png);
         display: flex;
         justify-content: center;
         align-items: center;
         min-height: 100vh;
 
     
-               
+    
     
     
     }
@@ -117,17 +117,20 @@
     .mensaje-error{
         text-align:right;
         color: brown;
-        display: none;
+        
     }
     .boton{
         background-color: hsl(154, 59%,51%);
         border: none;
         border-radius: 5px;
+        cursor: pointer;
         padding: 20px 30px ;
         width: 100%;
         color:white;
         font-size: 16px;
         margin-top: 10px;
+        
+
     
     
     }
@@ -147,10 +150,13 @@
 
 
 
-    @media(min-width:1200px){
+    @media(min-width:1100px){
+
         .body{
-            background-image: url(/sprint2/bg-intro-desktop.png);
+            background-image: url(https://cdn.discordapp.com/attachments/1032390880566464605/1037770064591593625/wallpaper.png);
+      
         }
+        
         .General{
             flex-direction: row;
             

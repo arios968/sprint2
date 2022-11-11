@@ -27,32 +27,32 @@
             <div class="datos">
                 <div class="contenedor-texto">
 
-                    <input id="NOM" name="firstName" class="cuadros" type="text" placeholder="nombre" required autocomplete="off">
+                    <input id="nombre" name="firstName" class="cuadros" type="text" placeholder="nombre" required autocomplete="off">
                     <img class="icon-error" src="./icon-error.svg" alt="" srcset="">
-                    <p class="mensaje-error"> nombre no debe estar vacio</p>
+                    <p class="mensaje-error"id="error-firstName"></p>
                 </div>
 
                 <div class="contenedor-texto">
-                    <input id="APELL" name="lastName" class="cuadros" type="text" placeholder="apellido" required autocomplete="off">
+                    <input id="apellido" name="lastName" class="cuadros" type="text" placeholder="apellido" required autocomplete="off">
                     <img class="icon-error" src="./icon-error.svg" alt="" srcset="">
-                    <p class="mensaje-error"> apellido no debe estar vacio</p>
+                    <p class="mensaje-error"id="error-lastName"></p>
                 </div>
 
                 <div class="contenedor-texto">
-                    <input id="EMA"  name="eMail" class="cuadros" type="email" placeholder="correo electronico" required
+                    <input id="email"  name="email" class="cuadros" type="email" placeholder="correo electronico" required
                         autocomplete="off">
                         <img class="icon-error" src="./icon-error.svg" alt="" srcset="">
-                    <p class="mensaje-error">email no debe estar vacio</p>
+                    <p class="mensaje-error"id="error-email"></p>
                 </div>
 
 
                 <div class="contenedor-texto">
-                    <input id="PASS" class="cuadros" type="text" placeholder="contraseña" required autocomplete="off">
+                    <input id="contraseña" name="password" class="cuadros" type="text" placeholder="contraseña" required autocomplete="off">
                     <img class="icon-error" src="./icon-error.svg" alt="" srcset="">
-                    <p class="mensaje-error"> contraseña no debe estar vacio</p>
+                    <p class="mensaje-error"id="error-password"></p>
                 </div>
 
-                <button id="SUBM" type="submit" class="boton">
+                <button  type="submit" class="boton">
                     RECLAMA TU PRUEBA GRATIS</button>
 
                     <p id="Terminos1">Al hacer click en el boton, usted acepta nuestros
